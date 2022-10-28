@@ -9,9 +9,15 @@ const ingredients = [
 
 const $ul = document.querySelector(`#ingredients`);
 
-for (let i = 0; i < ingredients.length; i += 1) {
+// for (let i = 0; i < ingredients.length; i += 1) {
+//   const newItem = document.createElement("li");
+//   newItem.classList.add("item");
+//   newItem.textContent = ingredients[i];
+//   $ul.append(newItem);
+// }
+ingredients.forEach((ingredient, indeks) => {
   const newItem = document.createElement("li");
   newItem.classList.add("item");
-  newItem.textContent = ingredients[i];
+  newItem.textContent = ingredients[indeks];
   $ul.append(newItem);
-}
+});
