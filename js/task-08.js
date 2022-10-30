@@ -10,7 +10,7 @@ const submitForm = (event) => {
 
   const {
     elements: { email, password },
-  } = $form;
+  } = event.currentTarget;
 
   if (email.value === "" || password.value === "") {
     alert("Proszę uzupełnić wszystkie pola");
