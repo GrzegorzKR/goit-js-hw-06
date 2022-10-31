@@ -3,7 +3,7 @@ const addBtn = document.querySelector(`[data-action="increment"]`);
 
 let defaultValue = document.querySelector(`#value`);
 let counterValue = Number(defaultValue.innerHTML);
-console.log(counterValue);
+
 
 const add = () => {
   counterValue = counterValue += 1;
