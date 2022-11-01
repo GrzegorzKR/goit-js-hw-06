@@ -22,14 +22,16 @@ const $markup = images
 const $list = document.querySelector(".gallery");
 
 $list.insertAdjacentHTML("afterbegin", $markup);
-$list.classList.add("list-styling");
 
-$list.style.listStyle = "none";
+// STLES MOVED TO CSS FOLDER
 
-const $images = document.querySelectorAll("img");
-for (const image of $images) {
-  image.style.marginBottom = "20px";
-  image.style.borderRadius = "10px";
-  image.style.width = "300px";
-  image.style.boxShadow = "0 10px 10px -5px rgba(0, 0, 0, 0.3)";
-}
+// $list.classList.add("list-styling");
+// $list.style.listStyle = "none";
+
+// const $images = document.querySelectorAll("img");
+// for (const image of $images) {
+//   image.style.marginBottom = "20px";
+//   image.style.borderRadius = "10px";
+//   image.style.width = "300px";
+//   image.style.boxShadow = "0 10px 10px -5px rgba(0, 0, 0, 0.3)";
+// }

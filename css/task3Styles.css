@@ -1,0 +1,10 @@
+img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+li {
+  list-style: none;
+}
